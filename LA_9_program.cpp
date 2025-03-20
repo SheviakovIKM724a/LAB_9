@@ -25,7 +25,7 @@ int main() {
         for (int j = 0; j < COLS; j++) {
             if (matrix[i][j] < 0) {
                 has_negative = true;
-            }
+            } 
             row_sum += matrix[i][j];
         }
         if (!has_negative) {
